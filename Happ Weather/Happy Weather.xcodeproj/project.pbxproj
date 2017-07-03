@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		634C2DB01F0AD52000E936F2 /* Happ Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happ Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634C2DB01F0AD52000E936F2 /* Happy Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		634C2DB31F0AD52000E936F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		634C2DB51F0AD52000E936F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		634C2DB81F0AD52000E936F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		634C2DB11F0AD52000E936F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				634C2DB01F0AD52000E936F2 /* Happ Weather.app */,
+				634C2DB01F0AD52000E936F2 /* Happy Weather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		634C2DAF1F0AD52000E936F2 /* Happ Weather */ = {
+		634C2DAF1F0AD52000E936F2 /* Happy Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 634C2DC21F0AD52000E936F2 /* Build configuration list for PBXNativeTarget "Happ Weather" */;
+			buildConfigurationList = 634C2DC21F0AD52000E936F2 /* Build configuration list for PBXNativeTarget "Happy Weather" */;
 			buildPhases = (
 				634C2DAC1F0AD52000E936F2 /* Sources */,
 				634C2DAD1F0AD52000E936F2 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Happ Weather";
+			name = "Happy Weather";
 			productName = "Happ Weather";
-			productReference = 634C2DB01F0AD52000E936F2 /* Happ Weather.app */;
+			productReference = 634C2DB01F0AD52000E936F2 /* Happy Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 634C2DAB1F0AD52000E936F2 /* Build configuration list for PBXProject "Happ Weather" */;
+			buildConfigurationList = 634C2DAB1F0AD52000E936F2 /* Build configuration list for PBXProject "Happy Weather" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				634C2DAF1F0AD52000E936F2 /* Happ Weather */,
+				634C2DAF1F0AD52000E936F2 /* Happy Weather */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		634C2DAB1F0AD52000E936F2 /* Build configuration list for PBXProject "Happ Weather" */ = {
+		634C2DAB1F0AD52000E936F2 /* Build configuration list for PBXProject "Happy Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				634C2DC01F0AD52000E936F2 /* Debug */,
@@ -297,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		634C2DC21F0AD52000E936F2 /* Build configuration list for PBXNativeTarget "Happ Weather" */ = {
+		634C2DC21F0AD52000E936F2 /* Build configuration list for PBXNativeTarget "Happy Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				634C2DC31F0AD52000E936F2 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Happ Weather.xcodeproj">
+      location = "self:/Users/daya/Documents/HappyWeather2/Happ Weather/Happy Weather.xcodeproj">
    </FileRef>
 </Workspace>
