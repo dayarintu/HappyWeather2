@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var feelsLikeLabel: UILabel!
     @IBOutlet weak var currentWindLabel: UILabel!
     @IBOutlet weak var currentLocationLabel: UILabel!
+    @IBOutlet weak var icon: UIImageView!
     
     @IBAction func refreshButton(_ sender: Any) {
     }
