@@ -41,7 +41,7 @@ enum WeatherIcons {
 extension WeatherIcons {
     var image: UIImage {
         switch self {
-        case .clearday: return #imageLiteral(resourceName: "clear-day.png")
+        case .clearday: return #imageLiteral(resourceName: "clear.png")
         case .clearnight: return  #imageLiteral(resourceName: "clear-night.png")
         case .rain: return #imageLiteral(resourceName: "rain.png")
         case .sleet: return #imageLiteral(resourceName: "sleet.png")

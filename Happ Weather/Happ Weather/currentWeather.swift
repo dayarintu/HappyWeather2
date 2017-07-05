@@ -14,5 +14,7 @@ struct CurrentWeatherData {
     let feelsLike: Double
     let summary: String
     let icon: String
+    let rain: Double
+    let wind: Double
 }
 

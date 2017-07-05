@@ -94,19 +94,8 @@
                                     <action selector="refreshButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5fx-tY-pUI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJK-jc-9DV">
-                                <rect key="frame" x="228" y="601" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="F">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="fahrenheitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GdL-lT-R1w"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQg-8k-w7Y">
-                                <rect key="frame" x="296" y="601" width="46" height="30"/>
+                                <rect key="frame" x="313" y="185" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="C">
@@ -116,8 +105,8 @@
                                     <action selector="celciusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jxR-0D-qix"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdv-an-7sh">
-                                <rect key="frame" x="282" y="605" width="25" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="/" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdv-an-7sh">
+                                <rect key="frame" x="296" y="190" width="25" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -145,23 +134,35 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJK-jc-9DV">
+                                <rect key="frame" x="259" y="184" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="F">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fahrenheitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GdL-lT-R1w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.59999999999999998" alpha="0.92152718321917804" colorSpace="deviceRGB"/>
                     </view>
                     <connections>
                         <outlet property="activityIndicator" destination="N73-PX-apw" id="Nth-Lh-sFE"/>
-                        <outlet property="currentHumidityLabel" destination="L7b-2B-6ON" id="eGI-17-ayO"/>
+                        <outlet property="currentHumidityLabel" destination="Npo-DW-kEa" id="zHO-JZ-2QH"/>
                         <outlet property="currentLocationLabel" destination="4eu-fr-5x3" id="sX0-cy-3jp"/>
+                        <outlet property="currentRainLabel" destination="vG8-OZ-E0e" id="EPy-j9-ooT"/>
                         <outlet property="currentTemperatureLabel" destination="pdT-Lg-p9u" id="4kh-I9-eDT"/>
-                        <outlet property="currentWindLabel" destination="mSw-KU-ExQ" id="iG8-8K-JP3"/>
-                        <outlet property="feelsLikeLabel" destination="dd7-X2-6uA" id="G7v-Nl-iMk"/>
+                        <outlet property="currentWindLabel" destination="u89-RV-OWg" id="Vaf-Bz-AQT"/>
+                        <outlet property="feelsLikeLabel" destination="oLP-35-8iq" id="pjt-bu-N2W"/>
                         <outlet property="icon" destination="TgI-gv-DoN" id="yoN-TJ-1g0"/>
                         <outlet property="summaryLabel" destination="9St-4v-4Nw" id="wEt-37-fsh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="344.80000000000001" y="121.88905547226388"/>
+            <point key="canvasLocation" x="-130" y="99"/>
         </scene>
     </scenes>
     <resources>
