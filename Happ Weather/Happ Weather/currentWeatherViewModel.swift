@@ -19,6 +19,8 @@ struct CurrentWeatherViewModel {
     let wind: String
     let feelsLike: String
     
+    // initializing
+    
     init(model: CurrentWeatherData) {
         let roundedTemperature = Int(model.temperature)
         self.temperature = "\(roundedTemperature)°"
